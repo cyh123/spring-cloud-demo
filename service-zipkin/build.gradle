@@ -1,0 +1,5 @@
+dependencies {
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.4.4.RELEASE'
+	compile group: 'io.zipkin.java', name: 'zipkin-server', version: '2.7.5'
+	compile group: 'io.zipkin.java', name: 'zipkin-autoconfigure-ui', version: '2.7.5'
+}

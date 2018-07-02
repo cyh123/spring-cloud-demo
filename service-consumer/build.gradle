@@ -1,0 +1,8 @@
+dependencies {
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.4.4.RELEASE'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.4.RELEASE'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.4.4.RELEASE'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-ribbon', version: '1.4.4.RELEASE'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-sleuth', version: '1.3.3.RELEASE'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-sleuth-zipkin', version: '1.3.3.RELEASE'
+}
